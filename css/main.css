@@ -1,3 +1,69 @@
-/*
-	Inserta tu CSS aqui
-*/
+*{
+	font-family: "Open Sans",sans-serif;
+}
+/* ---------------Header ---------------*/
+header{
+	background: url(../img/grupal.jpg) no-repeat;
+	background-size: cover;
+	height: 900px;
+}
+header .button{
+	text-decoration: none;
+	color: #000;
+	background-color: #FFBF00;
+	border-radius: 6px;
+	padding: 12px 20px;
+	position: absolute;
+	top: 50px;
+	left: 40px;
+	}
+header img{
+	width: 30%;
+	position: absolute;
+	left: 400px;
+	top: 100px;
+}
+.menu_izq li
+{
+	display: inline;
+	color: #000;
+}
+.menu{
+	float: right;
+	position: absolute;
+	right: 90px;
+	top: 45px;
+}
+.menu li{
+	display: inline-block;
+	padding: 12px;
+}
+header li a{
+	text-decoration: none;
+}
+/*--------------------Main Section--------------*/
+section img{
+	width:90%;
+	}
+.container {
+    margin: 20px 80px;
+    height: 300px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.container  a{
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+   }
+/*--------------------Footer-----------------*/
+footer{
+    background-color:#272020;
+    padding: 15px;  
+}
+footer p{
+    color: #fff;
+  }
+
+
